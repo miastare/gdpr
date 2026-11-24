@@ -1,0 +1,9 @@
+{
+ "reviewed_by": "Samuel Kinshuck (the controller)",
+ "reviewed_on": "2026-11-24",
+ "statement": "He checked each sampled person by hand. His note on one case: 'Tugendhat' is a Jewish name and the father was from a Jewish family, so as a guess of the religious background of the NAME the value 'Jewish' is right. The figures may be used as evidence.",
+ "name_background": {
+  "donor:michael tugendhat": "The guess (Jewish) matches the father's family background; he states a different religion himself (Catholic). The controller's note, 24 November 2026.",
+  "donor:anish kapoor": "The guess (Hindu) matches the father's family background (Punjabi Hindu); he states a different religion himself (Jewish). Recorded on the same reasoning as Tugendhat."
+ }
+}

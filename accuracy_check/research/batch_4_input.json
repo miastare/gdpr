@@ -1,0 +1,417 @@
+[
+ {
+  "id": "donor:neeraj patil",
+  "group": "donor",
+  "name": " Neeraj Patil",
+  "religion_guess": "Hindu",
+  "religion_basis": "surname:patil",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Sir Keir Starmer"
+   ],
+   "years": "2020 to 2020",
+   "total_gbp": 4900,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "donor:michael tugendhat",
+  "group": "donor",
+  "name": " Michael Tugendhat",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:tugendhat",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Tom Tugendhat"
+   ],
+   "years": "2024 to 2024",
+   "total_gbp": 3000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "donor:abul monsur ohid ahmed",
+  "group": "donor",
+  "name": "Mr Abul Monsur Ohid Ahmed",
+  "religion_guess": "Muslim",
+  "religion_basis": "surname:ahmed",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Aspire"
+   ],
+   "years": "2018 to 2018",
+   "total_gbp": 9873,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-mcdonald-anita-2010",
+  "group": "candidate",
+  "name": "Anita McDonald",
+  "religion_guess": "Hindu",
+  "religion_basis": "given:anita",
+  "gender_guess": "Female",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "McDonald, Anita"
+   ],
+   "parties": [
+    "Labour"
+   ],
+   "seats": [
+    "Ruislip, Northwood and Pinner"
+   ],
+   "elections": [
+    "2010-05-06"
+   ]
+  }
+ },
+ {
+  "id": "donor:surinderpal lit",
+  "group": "donor",
+  "name": "Mr Surinderpal Lit",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:surinderpal",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2017 to 2018",
+   "total_gbp": 7150,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-hawkins-miriam-2010",
+  "group": "candidate",
+  "name": "Miriam Hawkins",
+  "religion_guess": "Jewish",
+  "religion_basis": "given:miriam",
+  "gender_guess": "Female",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Hawkins, Miriam"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Wakefield"
+   ],
+   "elections": [
+    "2010-05-06"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-nicholson-chris-2010",
+  "group": "candidate",
+  "name": "Chris Nicholson",
+  "religion_guess": "Christian",
+  "religion_basis": "given:chris",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Nicholson, Chris"
+   ],
+   "parties": [
+    "Liberal Democrats"
+   ],
+   "seats": [
+    "Streatham"
+   ],
+   "elections": [
+    "2010-05-06"
+   ]
+  }
+ },
+ {
+  "id": "donor:christopher giles",
+  "group": "donor",
+  "name": " Christopher Giles",
+  "religion_guess": "Christian",
+  "religion_basis": "given:christopher",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2010 to 2010",
+   "total_gbp": 10000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-love-ankit-2016",
+  "group": "candidate",
+  "name": "Prince Ankit Love",
+  "religion_guess": "Hindu",
+  "religion_basis": "given:ankit",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Ankit Love",
+    "Prince Ankit Love"
+   ],
+   "parties": [
+    "Independent",
+    "One Love Party"
+   ],
+   "seats": [
+    "Batley and Spen",
+    "Cities of London and Westminster",
+    "Rutherglen and Hamilton West",
+    "Tooting"
+   ],
+   "elections": [
+    "2016-06-16",
+    "2016-10-20",
+    "2017-06-08",
+    "2023-10-05"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-yellapragada-hema-2024",
+  "group": "candidate",
+  "name": "Hema Yellapragada",
+  "religion_guess": "Hindu",
+  "religion_basis": "given:hema",
+  "gender_guess": "Female",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Hema Yellapragada"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Warwick and Leamington"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ },
+ {
+  "id": "donor:kulvinder singh",
+  "group": "donor",
+  "name": " Kulvinder Singh",
+  "religion_guess": "Sikh",
+  "religion_basis": "surname:singh",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2024 to 2024",
+   "total_gbp": 5000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-singh-jaswinder-2024",
+  "group": "candidate",
+  "name": "Jaswinder Singh",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:jaswinder",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Jaswinder Singh"
+   ],
+   "parties": [
+    "Independent"
+   ],
+   "seats": [
+    "Slough"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ },
+ {
+  "id": "donor:shalina arora",
+  "group": "donor",
+  "name": " Shalina Arora",
+  "religion_guess": "Hindu",
+  "religion_basis": "surname:arora",
+  "gender_guess": null,
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Andy Burnham"
+   ],
+   "years": "2026 to 2026",
+   "total_gbp": 20000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "donor:baron david de rothschild",
+  "group": "donor",
+  "name": " Baron David De Rothschild",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:rothschild",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2016 to 2016",
+   "total_gbp": 10000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "donor:christopher harborne",
+  "group": "donor",
+  "name": "Mr Christopher Harborne",
+  "religion_guess": "Christian",
+  "religion_basis": "given:christopher",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Reform UK",
+    "Mr Nigel Farage"
+   ],
+   "years": "2019 to 2026",
+   "total_gbp": 28767617,
+   "our_note_on_the_donor": "British-Thai businessman and technology investor; major donor to Reform UK.",
+   "link_we_hold": "https://en.wikipedia.org/wiki/Christopher_Harborne"
+  }
+ },
+ {
+  "id": "donor:david wolfson",
+  "group": "donor",
+  "name": "Mr David Wolfson",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:wolfson",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party",
+    "No Campaign Limited"
+   ],
+   "years": "2011 to 2023",
+   "total_gbp": 35000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-asim-muhammad-2024",
+  "group": "candidate",
+  "name": "Muhammad Asim",
+  "religion_guess": "Muslim",
+  "religion_basis": "given:muhammad",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Muhammad Asim"
+   ],
+   "parties": [
+    "Workers Party of Britain"
+   ],
+   "seats": [
+    "Barking"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-forrester-christine-2015",
+  "group": "candidate",
+  "name": "Christine Forrester",
+  "religion_guess": "Christian",
+  "religion_basis": "given:christine",
+  "gender_guess": "Female",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Christine Forrester"
+   ],
+   "parties": [
+    "UKIP"
+   ],
+   "seats": [
+    "Reading East"
+   ],
+   "elections": [
+    "2015-05-07"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-salomon-george-2019",
+  "group": "candidate",
+  "name": "George Salomon",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:salomon",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "George Salomon"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Gillingham and Rainham"
+   ],
+   "elections": [
+    "2019-12-12"
+   ]
+  }
+ },
+ {
+  "id": "donor:rajpreet chandok",
+  "group": "donor",
+  "name": " Rajpreet Chandok",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:rajpreet",
+  "gender_guess": null,
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Labour Party"
+   ],
+   "years": "2024 to 2024",
+   "total_gbp": 3000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ }
+]

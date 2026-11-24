@@ -1,0 +1,425 @@
+[
+ {
+  "id": "donor:gurneet singh",
+  "group": "donor",
+  "name": " Gurneet Singh",
+  "religion_guess": "Sikh",
+  "religion_basis": "surname:singh",
+  "gender_guess": null,
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2019 to 2019",
+   "total_gbp": 10000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-singh-arjun-2015",
+  "group": "candidate",
+  "name": "Arjun Singh",
+  "religion_guess": "Sikh",
+  "religion_basis": "surname:singh",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Arjun Singh"
+   ],
+   "parties": [
+    "Liberal Democrats"
+   ],
+   "seats": [
+    "Birmingham, Perry Barr"
+   ],
+   "elections": [
+    "2015-05-07"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-brice-chris-2010",
+  "group": "candidate",
+  "name": "Chris Brice",
+  "religion_guess": "Christian",
+  "religion_basis": "given:chris",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Brice, Chris"
+   ],
+   "parties": [
+    "Liberal Democrats"
+   ],
+   "seats": [
+    "East Ham"
+   ],
+   "elections": [
+    "2010-05-06"
+   ]
+  }
+ },
+ {
+  "id": "donor:abdullah al khorsan",
+  "group": "donor",
+  "name": " Abdullah Al-Khorsan",
+  "religion_guess": "Muslim",
+  "religion_basis": "given:abdullah",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2023 to 2023",
+   "total_gbp": 6000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-aslam-mohammed-2015",
+  "group": "candidate",
+  "name": "Mohammed Aslam",
+  "religion_guess": "Muslim",
+  "religion_basis": "given:mohammed",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Mohammed Aslam"
+   ],
+   "parties": [
+    "Communities United Party"
+   ],
+   "seats": [
+    "East Ham"
+   ],
+   "elections": [
+    "2015-05-07"
+   ]
+  }
+ },
+ {
+  "id": "donor:mohamed amersi",
+  "group": "donor",
+  "name": " Mohamed Amersi",
+  "religion_guess": "Muslim",
+  "religion_basis": "given:mohamed",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party",
+    "Mr Boris Johnson MP",
+    "Reform UK"
+   ],
+   "years": "2018 to 2025",
+   "total_gbp": 621570,
+   "our_note_on_the_donor": "British businessman, investor and philanthropist.",
+   "link_we_hold": "https://en.wikipedia.org/wiki/Mohamed_Amersi"
+  }
+ },
+ {
+  "id": "donor:christina smith",
+  "group": "donor",
+  "name": " Christina Smith",
+  "religion_guess": "Christian",
+  "religion_basis": "given:christina",
+  "gender_guess": "Female",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "The Rt Hon Tessa Jowell MP"
+   ],
+   "years": "2015 to 2015",
+   "total_gbp": 2000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-sehgal-sachin-2019",
+  "group": "candidate",
+  "name": "Sachin Sehgal",
+  "religion_guess": "Hindu",
+  "religion_basis": "given:sachin",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Sachin Sehgal"
+   ],
+   "parties": [
+    "Reform UK"
+   ],
+   "seats": [
+    "Edmonton"
+   ],
+   "elections": [
+    "2019-12-12"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-bhogal-amandeep-2015",
+  "group": "candidate",
+  "name": "Amandeep Singh Bhogal",
+  "religion_guess": "Sikh",
+  "religion_basis": "surname:bhogal",
+  "gender_guess": null,
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Amandeep Singh Bhogal"
+   ],
+   "parties": [
+    "Conservative"
+   ],
+   "seats": [
+    "Upper Bann"
+   ],
+   "elections": [
+    "2015-05-07"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-padda-gurpreet-2024",
+  "group": "candidate",
+  "name": "Gurpreet Padda",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:gurpreet",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Gurpreet Padda"
+   ],
+   "parties": [
+    "Labour"
+   ],
+   "seats": [
+    "Waveney Valley"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-weinberg-james-2019",
+  "group": "candidate",
+  "name": "James Weinberg",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:weinberg",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "James Weinberg"
+   ],
+   "parties": [
+    "Labour"
+   ],
+   "seats": [
+    "Tatton"
+   ],
+   "elections": [
+    "2019-12-12"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-levy-joe-2017",
+  "group": "candidate",
+  "name": "Joe Levy",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:levy",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Joe Levy"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Exeter"
+   ],
+   "elections": [
+    "2017-06-08",
+    "2019-12-12"
+   ]
+  }
+ },
+ {
+  "id": "candidate:c-meyer-phyl-2015",
+  "group": "candidate",
+  "name": "Phyl Meyer",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:meyer",
+  "gender_guess": null,
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Phyl Meyer"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Edinburgh South"
+   ],
+   "elections": [
+    "2015-05-07"
+   ]
+  }
+ },
+ {
+  "id": "donor:simon j sacher",
+  "group": "donor",
+  "name": "Mr Simon J Sacher",
+  "religion_guess": "Jewish",
+  "religion_basis": "surname:sacher",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2008 to 2010",
+   "total_gbp": 3535,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "donor:harbhajan s girdar",
+  "group": "donor",
+  "name": " Harbhajan S Girdar",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:harbhajan",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Conservative and Unionist Party"
+   ],
+   "years": "2003 to 2003",
+   "total_gbp": 1600,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-akram-ty-2019",
+  "group": "candidate",
+  "name": "Ty Akram",
+  "religion_guess": "Muslim",
+  "religion_basis": "surname:akram",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Ty Akram"
+   ],
+   "parties": [
+    "Green Party"
+   ],
+   "seats": [
+    "Batley and Spen"
+   ],
+   "elections": [
+    "2019-12-12"
+   ]
+  }
+ },
+ {
+  "id": "donor:davinder bains",
+  "group": "donor",
+  "name": " Davinder Bains",
+  "religion_guess": "Sikh",
+  "religion_basis": "given:davinder",
+  "gender_guess": "Male",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Ms Priti Patel MP"
+   ],
+   "years": "2024 to 2024",
+   "total_gbp": 5000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-chhabra-vivek-2024",
+  "group": "candidate",
+  "name": "Vivek Chhabra",
+  "religion_guess": "Hindu",
+  "religion_basis": "given:vivek",
+  "gender_guess": "Male",
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Vivek Chhabra"
+   ],
+   "parties": [
+    "Independent"
+   ],
+   "seats": [
+    "Stockton West"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ },
+ {
+  "id": "donor:lindsey khan",
+  "group": "donor",
+  "name": " Lindsey Khan",
+  "religion_guess": "Muslim",
+  "religion_basis": "surname:khan",
+  "gender_guess": "Female",
+  "context": {
+   "what": "individual donor in the Electoral Commission's register of political donations",
+   "gave_to": [
+    "Reform UK"
+   ],
+   "years": "2026 to 2026",
+   "total_gbp": 25000,
+   "our_note_on_the_donor": null,
+   "link_we_hold": null
+  }
+ },
+ {
+  "id": "candidate:c-grewal-harl-2024",
+  "group": "candidate",
+  "name": "Harl Grewal",
+  "religion_guess": "Sikh",
+  "religion_basis": "surname:grewal",
+  "gender_guess": null,
+  "context": {
+   "what": "candidate for the House of Commons who was never elected",
+   "name_as_recorded": [
+    "Harl Grewal"
+   ],
+   "parties": [
+    "Reform UK"
+   ],
+   "seats": [
+    "Windsor"
+   ],
+   "elections": [
+    "2024-07-04"
+   ]
+  }
+ }
+]
