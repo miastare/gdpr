@@ -23,9 +23,13 @@ bars. Detail: `record_of_processing.md` section 1A and `../Ofcom/GDPR dependenci
 people named in the Register of Interests, from public sources, explorable down to the individual record. It
 includes, for identifiable living people:
 
-- religion, denomination and sexuality of parliamentarians, estimated by OpenAI's GPT-4.1 from the person's
-  Wikipedia biography (the sexuality prompt defaults to heterosexual and counts rumour as grounds for the other
-  answer; the value is shown as "Heterosexual" or "Likely not heterosexual");
+- religion, denomination and sexuality of parliamentarians, guessed by OpenAI's GPT-4.1 from the person's
+  Wikipedia biography. **For sexuality the model was allowed only two answers, heterosexual or homosexual. It had
+  no "unknown" answer:** the prompt told it to assume heterosexual whenever it could not tell, to answer homosexual
+  where a person was rumoured to be or to have been, and to count bisexual as homosexual. So every parliamentarian
+  has a value, "Heterosexual" on the site includes everyone about whom the biography said nothing (15,872 of
+  16,157 people in the data are "Heterosexual", 285 the other answer), and the other answer is shown as "Likely
+  not heterosexual". Religion is different: there the model could answer "Unknown" (668 people);
 - gender and religion of election candidates and of individual donors, guessed from the name by fixed rules
   (for example a surname list), blank for most people.
 
@@ -92,7 +96,7 @@ against a named account, public counts invite pile-on reporting, and public flag
 
 | # | Risk | Measures in place | Residual | Further measure |
 |---|---|---|---|---|
-| 11 | A living parliamentarian is shown as "Likely not heterosexual" when they have not said so themselves, or when it is wrong. Harm: distress; a complaint | The value is an estimate and is labelled as one everywhere it is shown ("Likely not heterosexual", never a statement of fact; "(AI estimate)" in the column's name; the red warning; the provenance answer, which gives the prompt and its default). **The controller has read every "Likely not heterosexual" case by hand and found none without a basis in public information about the person, such as their Wikipedia page** (his statement, 24 November 2026). The people concerned hold or held public office. Anyone can have their own value set to unknown through the correction route | **Low to medium** | Write down when the hand check was done and against what (one line under section 7) |
+| 11 | A living parliamentarian is shown as "Likely not heterosexual" when they have not said so themselves, or when it is wrong. Harm: distress; a complaint | The value is an estimate and is labelled as one everywhere it is shown ("Likely not heterosexual", never a statement of fact; "(AI guessed)" in the column's name; the red warning; the provenance answer, which gives the prompt and its default). The opposite error is built into the method and is acknowledged: the model had no "unknown" answer and was told to assume heterosexual, so "Heterosexual" is an assumption for almost everyone it is shown for, and a person who is not heterosexual but whose biography does not say so is shown as "Heterosexual". The site says this wherever sexuality is explained (the column's explanation, the provenance answer, the note beside every chart split by sexuality, the homepage gallery's warning and the privacy notice), and nowhere words it as if the model could have left the question open. **The controller has read every "Likely not heterosexual" case by hand and found none without a basis in public information about the person, such as their Wikipedia page** (his statement, 24 November 2026). The people concerned hold or held public office. Anyone can have their own value set to unknown through the correction route | **Low to medium** | Write down when the hand check was done and against what (one line under section 7) |
 | 12 | A living parliamentarian is shown with a religion they do not hold | AI warning; certainty figure; provenance; correction route | Medium | L1, L2 |
 | 13 | A living donor or candidate is listed under a religious background read from their name, and the site can show named people by it (for example donors to one party). Harm: a label the person rejects; misuse of such a list to harass a group | The column is named for what it is, the guessed religious background of the NAME, not the person's religion (renamed 24 November 2026; a donor or candidate who is a parliamentarian shows the member's AI-guessed religion instead, labelled so), with a red warning that says a rule read the name and nobody checked; each individual value is labelled by how it was reached; the rule that fired is shown; most cells are blank; the Terms forbid harassment and stirring up hatred, with reporting and moderation; no bulk download; candidate and donor pages are not in the sitemap; the correction route. The same list could be made by anyone from the Electoral Commission's public register and a list of surnames. The column serves research the controller intends on the representation of groups among political donors | **Medium** (the assessor's view; the controller rates it lower. Either way it is not high) | L5: publish how often the rule is right where that can be measured. L3 when the profile pages are revised |
 | 14 | A guess or estimate loses its label when it travels: a shared chart, a screenshot, a tile that says "women gave £X" | Column names carry "(name guess)" or "(guessed)" in most places | Medium | L2, L3 |
@@ -101,7 +105,10 @@ against a named account, public counts invite pile-on reporting, and public flag
 | 17 | Accuracy of the research itself: an unmeasured classifier presented in charts | The methods are described; the certainty figure is described as the model's own | Medium | L5 |
 
 **Labelling measures (none removes data).** L1, L2 and L4 were carried out on 24 November 2026, and L3 for the
-profile pages, Interesting Correlates and the homepage gallery texts on the same day. The site's term is "AI
+profile pages, Interesting Correlates and the homepage gallery texts on the same day. On 25 November 2026 the rest
+of L3 followed: the interest cards' confidence wording, the stored titles of the four gallery charts that rest on a
+guess, a red "AI guessed" chip in the profile tiles' titles that opens the column's explanation, and a standing
+warning on the homepage gallery ("Religion and Sexuality data are AI guesses"). The site's term is "AI
 guessed". Since that day a candidate, donor or payer who is a parliamentarian shows the member's own value (for
 religion, the AI guess) in place of a name guess, labelled as such row by row. The text
 below is the finding as first written; `routes/CLAUDE.md` ("Data protection") records what the code now does.
@@ -142,6 +149,13 @@ day on facts the controller supplied and changes made since:
   "outed" by a label that repeats, as an estimate, what a public biography already indicates, and a site that says
   its labels are estimates does not carry the authority of a news report. The draft said this check would bring
   the risk down, and it has.
+- **Sexuality had no "unknown" answer (recorded 25 November 2026).** The prompt allowed only "homosexual" or
+  "heterosexual" and told the model to assume heterosexual when it could not tell. "Heterosexual" is therefore not
+  a finding about the person in most cases, which bears on the accuracy principle (Article 5(1)(d)). The measure is
+  explanation, not removal: every reader-facing account of the column now says that there was no "unknown" answer
+  and that "Heterosexual" includes everyone about whom the sources said nothing, and the two values are shown as
+  "Heterosexual" and "Likely not heterosexual". A person's own value can still be removed or changed on request
+  through the correction route. The paper's replication archive carries the same two-valued variable.
 - **Risk 13.** The column no longer states a person's religion. It states what their name suggests, says so in its
   name and warning, and labels each value by how it was reached. What remains is misuse of a list, which the
   public register already allows and which the Terms and moderation address.

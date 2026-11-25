@@ -47,7 +47,7 @@ The ICO explicitly addresses inferences from names: deliberately inferring a sen
 | Name-based gender estimates | Usually ordinary personal data, unless the particular processing reveals a protected special category characteristic. |
 | Name-based religion estimates | Treat conservatively as special category data because they are used as religion-related proxies in research on representation. |
 | Biography-based AI religion estimates | Special category data: the model is being asked to infer personal religious beliefs. |
-| Inferred sexuality | Special category data, with its own particularly sensitive disclosure and harm considerations. |
+| Inferred sexuality | Special category data, with its own particularly sensitive disclosure and harm considerations. The AI model was allowed only two answers, heterosexual or homosexual, with no "unknown", and was told to assume heterosexual whenever it could not tell; "Heterosexual" is therefore an assumption for most people and not a finding, and the site says so (added 25 November 2026). |
 | Party affiliation and political donations | Special category data where they reveal political opinions; not every mention or donation necessarily establishes a person's beliefs. |
 | Information concerning deceased persons | Generally outside UK GDPR in relation to the deceased, although it can also reveal information about living people. |
 

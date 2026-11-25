@@ -106,8 +106,12 @@ and it is what the justification paper (section 8) and the privacy notice promis
       as "Likely not heterosexual" is done (yours).
 - [x] The accuracy check: the sample checked directly by you on 24 November 2026; the figures are on the name-guess columns'
       explainers.
+- [x] Sexuality had no "unknown" answer (25 November 2026): the AI model could answer only heterosexual or
+      homosexual and was told to assume heterosexual when it could not tell. The site, the privacy notice, the DPIA
+      (section 1 and risk 11) and the record of processing now say so, and nothing words it as if the model could
+      have left it open.
 - [ ] Before the first correction to a parliamentarian's religion or sexuality is recorded: the member page would
-      still label the corrected value "(AI estimate)" and show a confidence badge, because the corrections layer
+      still label the corrected value "(AI guessed)" and show a confidence badge, because the corrections layer
       leaves no mark on the row that the page can read (a corrected candidate or donor value is marked, through its
       basis). Nothing is wrong today: the register is empty. Fix: have the layer mark the row, and the page read it.
 - [ ] A half-page policy note for the child-sexual-abuse sign-up bar (`record_of_processing.md` section 6).
@@ -121,8 +125,12 @@ and it is what the justification paper (section 8) and the privacy notice promis
 
 - [ ] Analytics: the site's own counts, with a sentence in the notice and a way to object (no banner needed).
 - [x] L3 in the DPIA: the profile pages, Interesting Correlates and the homepage gallery texts are labelled
-      (24 November 2026). Still owed: the interest cards' "we are about N% confident" wording, and renaming the
-      gallery's four shared charts in their share dialogs (their stored titles are yours to change).
+      (24 November 2026). On 25 November 2026 the interest cards' "we are about N% confident" wording was replaced
+      ("An AI model guessed this, and rated its own confidence at N%. That is not a measured accuracy."), the four
+      gallery charts' stored titles were changed to say "AI-guessed" / "an AI model guessed as", the profile tiles'
+      titles gained a red "AI guessed" chip that opens the column's explanation, and the homepage gallery gained a
+      standing warning box. Still owed: the gallery's pictures of those four charts show the old titles (retake
+      them), and the charts' descriptions still state the guesses as fact (yours to reword in the share dialog).
 - [ ] Hash internet addresses with a secret key (DPIA risk 6).
 - [ ] Keep other people's replies when an account is closed.
 
