@@ -218,6 +218,45 @@ The project should retain accountability, appropriate security and other GDPR du
 >
 > In applying these grounds the project considers the relevance, accuracy, necessity and impact of particular processing and disclosures, including the different privacy interests of parliamentarians, candidates, donors and other individuals. It maintains appropriate safeguards and documents the reasons for its decisions.
 
+## 10A. Addendum, 25 November 2026: what has been adopted and checked since
+
+This paper is kept as written on 24 November 2026. What has changed since:
+
+- **The statement in section 10 has been adopted in substance in the privacy notice** (section 4, version
+  2026-11-25b). The notice now gives the whole paragraph 26 test, not only its first half: that the material is
+  published for academic and journalistic purposes in the public interest, *and* the reasonable belief that
+  applying a particular provision would be incompatible with those purposes, with the reason (section 6, Test 3):
+  preventing the publication of identifiable research observations would impair readers' ability to verify or
+  challenge the evidence behind an analysis, the site's or another user's. It names what is weighed in deciding what
+  to publish: the contribution to the purposes, reliability, the privacy interests of the people concerned and the
+  likely consequences. The reasoning is recorded in `records/record_of_processing.md` section 2C, as section 9 item 1 asks.
+- **Rights (section 9 item 3).** The notice's section 7 now says that the exemptions for research, journalism and
+  academic publication are applied only where their statutory conditions are met, not as a general exemption from
+  people's rights, and that a request to correct, remove or restrict is considered individually, weighing the impact
+  of publication on the person, the public interest in the information and the effect on the purposes, with the
+  decision and any exemption relied on explained.
+- **Evidence of reliability for the biography-based AI estimates** (section 6, the reasonable-belief assessment; the
+  last paragraph of "Evidence and limitations"). The controller has checked them by hand:
+  - religion: a random sample of 100 living parliamentarians, each checked against open-source research on 25
+    November 2026, the AI's classification agreeing for 97 of them (`accuracy_check/religion_check_reviewed.csv`);
+  - sexuality: every "Likely not heterosexual" value, each found a reasonable designation of that label, with a
+    basis in public information about the person. The check cannot test "Heterosexual", which is the model's default
+    (section 3) and is explained as such on the site.
+
+  Section 6 says that no general entitlement to publish *unverified* AI religion estimates has been established.
+  The estimates are still not verified person by person, and are labelled as estimates; but their reliability is
+  now measured, which goes to the reasonableness of the belief that publishing them serves the special purposes,
+  to the accuracy principle and to the Article 84C test of substantial damage or distress. The name-based guesses
+  for candidates and donors were measured separately (`accuracy_check/RESULTS.md`). `records/DPIA.md` records the effect on
+  the risk ratings.
+- **Controller and provider arrangements (section 9 item 4).** The controller of all the processing is Samuel
+  Kinshuck (the controller's decision, 25 November 2026); the academic collaborator receives the research datasets
+  and is not a controller, separate or joint, so Article 26 does not arise. The AI service used on the biographies
+  is OpenAI's API, under its Data Processing Addendum signed on 24 November 2026. The email provider, Resend, acts
+  under its Data Processing Addendum of 31 December 2025, with its UK Extension certification as the transfer
+  mechanism (`processors/resend/resend_record.md`).
+- **The DPIA was signed on 25 November 2026**, with no residual risk rated high.
+
 ## 11. References
 
 All references below are public online sources. Statutory references are to UK law, including amendments made by the Data (Use and Access) Act 2025. The ICO guidance is regulatory interpretation rather than legislation.
