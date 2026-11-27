@@ -12,6 +12,7 @@ Paths in these files are written from this folder.
 | Where | What it is |
 |---|---|
 | `answering_requests.md` | How to answer a request from someone about their data, and how to correct a value about a person in the data |
+| `breach_response.md` | What to do if personal data is breached: the 72 hours, the first hour, who to tell, and the log of incidents. Keep a printed copy |
 | **`records/`** | **The formal records** |
 | `records/record_of_processing.md` | What personal data is used, why, on what legal basis, who receives it, how long it is kept, how each right is met, what is not required. Includes the legitimate interests assessment and the list of processors |
 | `records/appropriate_policy_document.md` | The policy document the law requires for criminal offence data: reports of suspected illegal content, decisions on them, the archive of removed content and sign-up bars. Adopted 26 November 2026 |
@@ -23,6 +24,10 @@ Paths in these files are written from this folder.
 | `processors/openai/openai_dpa_signed_2026-11-24.pdf` | OpenAI's Data Processing Addendum for the API account (the moderation check and any other API use; not consumer ChatGPT) |
 | `processors/resend/resend_record.md` | Resend, the email service: what the site sends through it, the transfer, retention, sub-processors, what is left to do. Start here for Resend |
 | `processors/resend/resend_dpa_2025-12-31.md` | Resend's Data Processing Addendum (version of 31 December 2025), binding from the account's sign-up |
+| `processors/ionos/ionos_record.md` | IONOS, the host of the server (United Kingdom): what is on it, where the data stays, what the agreement provides, what is left to do. Start here for IONOS |
+| `processors/ionos/Data Processing Agreement.pdf` | IONOS Cloud Ltd.'s Data Processing Agreement (version 2.0, March 2026), part of the contract for the server |
+| `processors/cloudflare/cloudflare_record.md` | Cloudflare, which carries every request to the site: what it sees, the transfer to the United States, what is left to do. Start here for Cloudflare |
+| `processors/cloudflare/cloudflare_customer_dpa-v6.4_april_3_2026.pdf` | Cloudflare's Data Processing Addendum (version 6.4, 3 April 2026), part of its self-serve terms; binds without a signature |
 | `processors/resend/dpf_listing_2026-11-25.png` | Resend's entry on the Data Privacy Framework list (participant 8907), saved 25 November 2026: EU-US and UK Extension both active, next certification due 3 March 2027 |
 | **`accuracy_check/`** | **Evidence for the accuracy of the guesses** (only the counts are published; the findings about named people stay here) |
 | `accuracy_check/RESULTS.md`, `accuracy_check.xlsx` | The check of the name guesses for 80 election candidates and donors (DPIA measure L5), checked directly by you on 24 November 2026; the figures are on the name-guess columns' explainers |
@@ -34,22 +39,33 @@ Paths in these files are written from this folder.
 
 **Before the site opens**
 
-- [ ] Read the privacy notice at `/privacy` as a stranger would, and correct anything that is not true of the site.
-      The version to read is 2026-11-25b (`published_notice/2026-11-25b.md`); `CHANGES` in `helpers/privacy.py`
-      lists what each version changed. The running server shows it only after a restart.
-- [ ] Name the host in `helpers/privacy.py` (`HOSTING`) and in `records/record_of_processing.md` section 4, and take
-      Cloudflare out of both if it is no longer used. New version and date for the notice.
-- [ ] Security at deployment: headers and a content security policy, encrypted database backups (without the
-      `ADDRESS_HASH_KEY` key), a note of what to do on a breach (72 hours to tell the ICO where people are at risk).
-      DPIA risk 8.
+- [x] Read the privacy notice at `/privacy` as a stranger would. Read by the controller and found right
+      (26 November 2026, version 2026-11-25b). Version 2026-11-26 changed only the hosting paragraph and the first
+      sentence of "Outside the United Kingdom" in section 5 (`published_notice/2026-11-26.md`): read those two.
+- [x] Name the host in `helpers/privacy.py` (`HOSTING`) and in `records/record_of_processing.md` section 4. Done
+      26 November 2026: IONOS Cloud Ltd., United Kingdom; Cloudflare stays, in front of the public site too
+      (notice version 2026-11-26).
+- [ ] Cloudflare: save a screenshot of its Data Privacy Framework entry with the UK Extension active
+      (`processors/cloudflare/cloudflare_record.md`, section 3).
+- [ ] IONOS: check the invoice names IONOS Cloud Ltd.; save the sub-processor list and the security measures its
+      agreement links to (`processors/ionos/ionos_record.md`, section 5).
+- [ ] Cookies: on the public address, look at what a logged-out visitor's browser is given. Add any cookie
+      Cloudflare sets to section 3 of the privacy notice (new version).
+- [ ] Security at deployment: headers and a content security policy; encrypted database backups (without the
+      `ADDRESS_HASH_KEY` key). DPIA risk 8. The note of what to do on a breach is written: `breach_response.md`
+      (26 November 2026); print it.
+- [ ] The DPIA's review before opening: confirm the changes listed at the foot of its section 5.
 - [ ] Look in the browser at the labelling fixes L1 to L4 (DPIA section 4).
 - [ ] The homepage gallery: retake the pictures of the four AI-guess charts (they show the old titles), and reword
       their descriptions in the share dialog, which still state the guesses as fact.
 - [ ] Optional: a contact mailbox for data protection. Set `PRIVACY_CONTACT_EMAIL`; without it the notice gives the
       form only.
-- [ ] On opening day: the ICO fee self-assessment.
 
 **Later**
+
+- [ ] When the site starts trading: take the ICO fee self-assessment again. Opening the site does not by itself
+      call for it: the self-assessment, as the controller took it, ties the fee to trading (the controller,
+      26 November 2026; until that date this list said "on opening day").
 
 - [ ] Analytics: the site's own counts, with a sentence in the notice and a way to object (no banner needed).
 - [ ] The accuracy log (DPIA risk 4).
@@ -63,6 +79,7 @@ Paths in these files are written from this folder.
   is kept more than 14 days beyond its period (`helpers/retention.RESTART_DAYS`).
 - The Data requests section, at the Monday and Thursday moderation review (`answering_requests.md`).
 - A new version of the privacy notice: save its copy in `published_notice/`.
+- IONOS's notices of new sub-processors (14 days to object); Cloudflare's sub-processor list, at the yearly review.
 - Resend's notices of new sub-processors, when they arrive: look again if one would receive email content.
 - After 3 March 2027: Resend's Data Privacy Framework entry (https://www.dataprivacyframework.gov/participant/8907)
   is still active, UK Extension included; save a new screenshot in `processors/resend/`.
@@ -89,3 +106,7 @@ Paths in these files are written from this folder.
 | 25 November 2026 | Privacy notice 2026-11-25b: the full paragraph 26 test, "Limits" in section 7, the keyed hash, Resend |
 | 25 November 2026 | DPIA signed, accepting the re-rated risks. No consultation with the ICO needed: no risk is rated high |
 | 26 November 2026 | Appropriate policy document for criminal offence data adopted (`records/appropriate_policy_document.md`): sign-up bars (child sexual abuse, terrorism, removals), reports of suspected illegal content, decisions, the archive. The record of processing points to it |
+| 26 November 2026 | The host: IONOS Cloud Ltd., a server in a United Kingdom data centre. Its Data Processing Agreement saved and read, its record written, the record of processing and DPIA risk 8 updated. Cloudflare kept in front of the public site: its addendum saved and read, its record written. Privacy notice 2026-11-26 |
+| 26 November 2026 | The privacy notice read by the controller as a stranger would: found right |
+| 26 November 2026 | The note of what to do on a breach written (`breach_response.md`) |
+| 26 November 2026 | The moderator's account given a second password, set only from the server's command line, which no email can reset |

@@ -55,6 +55,9 @@ and misuse controls.
   2026 (`processors/openai/openai_dpa_signed_2026-11-24.pdf`). Resend: its Data Processing Addendum of 31 December 2025, binding from sign-up
   (`processors/resend/resend_dpa_2025-12-31.md`), and its certification under the UK Extension to the EU-US Data Privacy Framework, checked as
   active on 25 November 2026, its participant page saved (`processors/resend/dpf_listing_2026-11-25.png`; `processors/resend/resend_record.md`).
+  IONOS (the host, from 26 November 2026): its Data Processing Agreement, version 2.0 of March 2026, part of the contract for the
+  server (`processors/ionos/ionos_record.md`). Cloudflare: its Data Processing Addendum, version 6.4 of 3 April 2026, part of its
+  self-serve terms (`processors/cloudflare/cloudflare_record.md`); its Data Privacy Framework entry is still to be looked at and saved.
 
 ## 3. Necessity and proportionality
 
@@ -101,7 +104,7 @@ Scale: low / medium / high.
 | 5 | Standing: a hidden score about a person | Not stored, moderator-only, one mild effect, disclosed on a subject access request | Low | None |
 | 6 | Hashed internet and email addresses could be reversed: an unkeyed hash of an IPv4 address can be undone by trying every address | Since 25 November 2026 internet addresses are hashed with a secret key (HMAC-SHA256) held outside the database: the environment variable `ADDRESS_HASH_KEY`, else the file `secrets/address_hash.key` (made on first use, never committed). Someone with the database alone cannot test addresses. Rows made before that are rewritten under the key when the address is next seen, and the old form is no longer matched after 1 September 2027, by which time every one has expired. Short retention (90 and 180 days); the table is not public | Low | Keep the key out of any database backup. The email hash of a sign-up bar is still unkeyed (an email address cannot be found by trying every one, as an IPv4 address can); key it too if bars ever become numerous |
 | 7 | An address bar catches an innocent person who shares an address | 180 days only; lifted on request; Terms rule 10 says how to ask | Low | None |
-| 8 | A breach of the database (emails, password hashes, moderation records) | Passwords hashed with scrypt; link tokens stored only as hashes; admin routes answer 404 to others; rate limits | **Medium until deployment is settled** | Before opening: security headers and a content security policy; encrypted database backups (none exist); a host with a DPA; a one-page note of what to do on a breach (the ICO must be told within 72 hours if people are at risk) |
+| 8 | A breach of the database (emails, password hashes, moderation records) | Passwords hashed with scrypt; link tokens stored only as hashes; admin routes answer 404 to others; rate limits. Since 26 November 2026: the site runs on a server rented from IONOS in the United Kingdom, under its data processing agreement (`processors/ionos/ionos_record.md`); the server opens no web port, and is reached only through a Cloudflare tunnel (`processors/cloudflare/cloudflare_record.md`) and by SSH with one key; the app runs as a user that can write nowhere on the disk; the secrets are in a settings file only root and the app can read; the moderator's account needs a second password that is set only from the server's command line and that no email can reset; a note of what to do on a breach is written (`breach_response.md`) | **Medium until deployment is settled** | Before opening: security headers and a content security policy; encrypted database backups kept off the server and apart from the address hash key (none exist). Done 26 November 2026: a host with a DPA; the breach note |
 | 9 | Records kept too long | The retention schedule, enforced at every start | Low | None |
 | 10 | Closing an account also deletes other people's replies to its comments | Stated in the privacy notice and on the closure form | Low | Later: keep the replies and show the parent as removed |
 
@@ -229,10 +232,13 @@ Two points stay worth knowing, because they are where a complaint would be argue
 4. ~~L1, L2, L3 and L4~~ Done 24 November 2026 (see section 4; to be checked in the browser).
 5. ~~L5~~ Done 24 November 2026: the controller checked the sample in `accuracy_check/` directly, and the figures are on the
    name-guess columns' explainers.
-6. Deployment security and a breach note (risk 8); name the host in the privacy notice.
+6. Deployment security (risk 8): security headers and a content security policy, and encrypted database backups, are
+   still to do. ~~A breach note; name the host in the privacy notice~~ Done 26 November 2026: `breach_response.md`;
+   IONOS named in privacy notice 2026-11-26, with Cloudflare kept in front of the public site.
 7. ~~Settle who is controller~~ Decided 25 November 2026: Samuel Kinshuck is the controller of everything assessed
    here; the academic collaborator is a recipient of the research datasets, not a controller.
-8. Take the ICO fee self-assessment again on opening day.
+8. Take the ICO fee self-assessment again when the site starts trading. (Changed 26 November 2026 from "on
+   opening day": the self-assessment, as the controller took it, ties the fee to trading, not to opening.)
 9. ~~Resend (risk 2a): save dated evidence of its Data Privacy Framework listing~~ Saved 25 November 2026
    (`processors/resend/dpf_listing_2026-11-25.png`). Open and click tracking: checked off, 25 November 2026. Look at the listing again after
    3 March 2027.
@@ -240,6 +246,11 @@ Two points stay worth knowing, because they are where a complaint would be argue
 Later: the accuracy log (risk 4). Done since the first draft: the keyed hash (risk 6, 25 November 2026); the
 interest cards' confidence wording (L3, 25 November 2026); the religion sample saved in
 `accuracy_check/religion_check_reviewed.csv` (risk 12, 25 November 2026).
+
+Changed since the sign-off of 25 November 2026, for the controller to confirm at the review before opening:
+a new recipient, IONOS, which hosts the site from 26 November 2026, and Cloudflare kept in front of the public
+site and not only the preview (risk 8's measures are brought up to date; no rating is changed); the moderator's
+account given a second password (risk 8).
 
 ## 6. What was not examined
 
